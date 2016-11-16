@@ -7,7 +7,7 @@ public class FiNameGen {
 
     }
     static public String FiName(String f, String l){
-        String alfa = "abcdefghijklmnopqrstuv";
+        String alfa = "abcdefghijklmnopqrstuvwxyz";
         int fir = alfa.indexOf(f);
         int las = alfa.indexOf(l);
         String name = alfa.substring(fir,las);

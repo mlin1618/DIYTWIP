@@ -15,7 +15,7 @@ public class Main {
         try{
             Scanner sc = new Scanner(new File((dir +"/bosniaNamesIn.txt")));
             for(int i = 0; i < 75; i++){
-                names[i] = sc.nextLine().toLowerCase();
+                names[i] = sc.nextLine().trim().toLowerCase();
             }
             Arrays.sort(names);
             for(int i = 0; i < 5; i++){
